@@ -1,4 +1,20 @@
+@import '_mixins';
+
 /* You can add global styles to this file, and also import other style files */
+
+$darkcolor1: #D4CE6E;
+$lightcolor1: #E0D843;
+$primary: #E03838;
+$darkcolor2: #1962A6;
+$lightcolor2: #559DE0;
+
+.text-lightcolor1 {
+    color: $lightcolor1;
+}
+
+.shadow-sharp {
+    box-shadow: 2px 2px 1.5rem black;
+}
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';

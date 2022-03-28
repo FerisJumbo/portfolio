@@ -1,0 +1,3 @@
+@mixin backgroundgradient($rot, $color1, $perc1, $color2, $perc2) {
+    background: linear-gradient($rot, $color1, $perc1, $color2 $perc2);
+}
